@@ -43,7 +43,7 @@ header {
 header h1 {
     font-family: var(--font-destaque);
     font-size: 3em;
-    padding-top: 40px;
+    padding: 40px 20px 0px 20px;
     margin: 0;
     margin-bottom: 20px;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.493);
@@ -179,6 +179,11 @@ footer {
     aside ul {
         columns: 1;
     }
+
+    #video iframe {
+       height: 280px;
+    }
+
 }
 
 
